@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T12:32:09 CEST" name="Suite" finished-at="2024-07-15T12:32:31 CEST" duration-ms="21749">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.subMitOrder()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" name="subMitOrder" class="gianluca.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="provaDataProvider">
+        <method signature="SubMitOrderTest2.subMitOrder2(java.util.HashMap)[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" name="subMitOrder2" class="gianluca.tests.SubMitOrderTest2"/>
+      </group> <!-- provaDataProvider -->
+    </groups>
+    <test started-at="2024-07-15T12:32:09 CEST" name="Error validations test" finished-at="2024-07-15T12:32:27 CEST" duration-ms="17984">
+      <class name="gianluca.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:09 CEST" name="launchApplication" finished-at="2024-07-15T12:32:15 CEST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidations()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:15 CEST" name="ProductErrorValidations" finished-at="2024-07-15T12:32:22 CEST" duration-ms="6759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:22 CEST" name="tearDown" finished-at="2024-07-15T12:32:22 CEST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:22 CEST" name="launchApplication" finished-at="2024-07-15T12:32:26 CEST" duration-ms="3805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="subMitOrder()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:26 CEST" name="subMitOrder" finished-at="2024-07-15T12:32:27 CEST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subMitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gianluca.tests.ErrorValidations@4470fbd6]" started-at="2024-07-15T12:32:27 CEST" name="tearDown" finished-at="2024-07-15T12:32:27 CEST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gianluca.tests.ErrorValidations -->
+    </test> <!-- Error validations test -->
+    <test started-at="2024-07-15T12:32:09 CEST" name="SubMiti Order test" finished-at="2024-07-15T12:32:31 CEST" duration-ms="21749">
+      <class name="gianluca.tests.SubMitOrderTest2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:09 CEST" name="launchApplication" finished-at="2024-07-15T12:32:15 CEST" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="subMitOrder2(java.util.HashMap)[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:15 CEST" name="subMitOrder2" data-provider="getData" finished-at="2024-07-15T12:32:19 CEST" duration-ms="3516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Gianluca88!, email=radescagianluca88@gmail.com, prodotto=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subMitOrder2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:19 CEST" name="tearDown" finished-at="2024-07-15T12:32:19 CEST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:19 CEST" name="launchApplication" finished-at="2024-07-15T12:32:23 CEST" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="subMitOrder2(java.util.HashMap)[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:23 CEST" name="subMitOrder2" data-provider="getData" finished-at="2024-07-15T12:32:26 CEST" duration-ms="3513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Gianluca88!, email=radescagianluca88@gmail.com, prodotto=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subMitOrder2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:26 CEST" name="tearDown" finished-at="2024-07-15T12:32:26 CEST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:26 CEST" name="launchApplication" finished-at="2024-07-15T12:32:30 CEST" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:30 CEST" name="OrderHistoryTest" finished-at="2024-07-15T12:32:31 CEST" depends-on-methods="gianluca.tests.SubMitOrderTest2.subMitOrder2" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gianluca.tests.SubMitOrderTest2@f1da57d]" started-at="2024-07-15T12:32:31 CEST" name="tearDown" finished-at="2024-07-15T12:32:31 CEST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gianluca.tests.SubMitOrderTest2 -->
+    </test> <!-- SubMiti Order test -->
+  </suite> <!-- Suite -->
+</testng-results>

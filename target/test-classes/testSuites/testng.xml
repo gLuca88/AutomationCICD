@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+    <listeners>
+        <listener class-name="gianluca.TestComponents.Listeners" />
+    </listeners>
+    <test thread-count="5" name="SubMiti Order test">
+        <classes>
+            <class name="gianluca.tests.SubMitOrderTest2" />
+        </classes>
+    </test>
+    <test thread-count="5" name="Error validations test">
+        <classes>
+            <class name="gianluca.tests.ErrorValidations" />
+        </classes>
+    </test>
+</suite>
+
+ 
